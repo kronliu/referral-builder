@@ -19,20 +19,23 @@ This is a full-stack application for building referrals. It consists of a React 
 ```bash
 git clone https://github.com/your-username/referral-builder.git
 cd referral-builder
+```
 
 ### 2. Set up the backend
 ```bash
 cd backend
 npm install
 npm run start
+```
 
 The backend server should start on http://localhost:5000.
 
 ### 3. Set up the frontend
+```bash
 cd ../frontend
 npm install
 npm run start
-
+```
 ## API Endpoints
 - POST /api/referrals: Create a new referral.
 - GET /api/referrals: Retrieve all referrals.
